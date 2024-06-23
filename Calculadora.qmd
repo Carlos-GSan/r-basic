@@ -1,0 +1,76 @@
+---
+title: "Calculadora básica funciones"
+format: pdf
+editor: visual
+---
+
+## Calculadora básica- Funciones
+
+![](images/clipboard-471485704.png)
+
+## Corriendo Codigo
+
+```{r}
+sqrt(9)
+```
+
+```{r}
+log(exp(1))
+```
+
+```{r}
+exp(1)
+```
+
+```{r}
+log(pi)
+```
+
+```{r}
+abs(-pi)
+```
+
+## Calculadora básica- Combinatoria
+
+![](images/clipboard-2870998658.png)
+
+```{r}
+factorial(7)
+```
+
+No se puede hacer el factorial de un número negativo
+
+```{r}
+factorial(-5)
+```
+
+Por otro lado, el número factorial de 0 es 1
+
+```{r}
+factorial(0)
+```
+
+**Método choose:** define las formas de ordenar *n* elementos sobre *m*
+
+![](images/clipboard-3908613947.png)
+
+```{r}
+choose(5, 3)
+
+```
+
+Si hacemos lo contrario, veremos que es 0, ya que si tenemos 3 elementos de cuantas formas podemos elegir 5?
+
+```{r}
+choose(3,5)
+```
+
+R entiende los argmentos de estos problemas sin ningún problema
+
+```{r}
+log(4^6,4)
+```
+
+```{r}
+6^log(4,6)
+```
